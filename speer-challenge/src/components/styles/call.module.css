@@ -1,0 +1,41 @@
+.callCard {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.quickView{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.quickInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.quickInfoSub{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  align-items: center;
+}
+
+
+@media (max-width: 600px) {
+  .callCard {
+    max-width: 400px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .callCard {
+    max-width: 300px;
+  }
+}
+  
