@@ -27,7 +27,6 @@ A React application that displays and manages a phone call log using Material-UI
 3. **Smooth Animations**
 
    - Calls collapse smoothly on archive/unarchive.
-   - If the last call in a date group is archived, the date heading also collapses gracefully.
 
 4. **Material-UI**
    - Leverages Material-UI for styling, theming, icons, and transitions.
