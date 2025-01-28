@@ -1,0 +1,15 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F0F2F6;
+}
+
+.callLog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
